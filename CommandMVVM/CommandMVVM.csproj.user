@@ -10,10 +10,10 @@
     <Compile Update="Views\Pages\DashboardPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Pages\EditPage.xaml.cs">
+    <Compile Update="Views\Windows\AllCarView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Windows\AllCarView.xaml.cs">
+    <Compile Update="Views\Windows\EditView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Windows\MainView.xaml.cs">
@@ -24,10 +24,10 @@
     <Page Update="Views\Pages\DashboardPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Pages\EditPage.xaml">
+    <Page Update="Views\Windows\AllCarView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Windows\AllCarView.xaml">
+    <Page Update="Views\Windows\EditView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Windows\MainView.xaml">

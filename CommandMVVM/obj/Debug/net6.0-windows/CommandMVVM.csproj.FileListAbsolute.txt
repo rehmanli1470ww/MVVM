@@ -88,5 +88,5 @@ C:\Users\Rubail\Desktop\c# zip fail\CommandMVVM\CommandMVVM\obj\Debug\net6.0-win
 C:\Users\Rubail\Desktop\c# zip fail\CommandMVVM\CommandMVVM\obj\Debug\net6.0-windows\CommandMVVM.csproj.CopyComplete
 C:\Users\Rubail\Desktop\c# zip fail\CommandMVVM\CommandMVVM\obj\Debug\net6.0-windows\CommandMVVM.genruntimeconfig.cache
 C:\Users\Rubail\Desktop\c# zip fail\CommandMVVM\CommandMVVM\obj\Debug\net6.0-windows\ref\CommandMVVM.dll
-C:\Users\Rubail\Desktop\c# zip fail\CommandMVVM\CommandMVVM\obj\Debug\net6.0-windows\Views\Pages\EditPage.g.cs
-C:\Users\Rubail\Desktop\c# zip fail\CommandMVVM\CommandMVVM\obj\Debug\net6.0-windows\Views\Pages\EditPage.baml
+C:\Users\Rubail\Desktop\c# zip fail\CommandMVVM\CommandMVVM\obj\Debug\net6.0-windows\Views\Windows\EditView.g.cs
+C:\Users\Rubail\Desktop\c# zip fail\CommandMVVM\CommandMVVM\obj\Debug\net6.0-windows\Views\Windows\EditView.baml

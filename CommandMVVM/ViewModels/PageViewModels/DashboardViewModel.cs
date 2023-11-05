@@ -60,7 +60,10 @@ public class DashboardViewModel : NotificationService
 
     public void SaveCar(object? parameter)
     {
-       
+        Cars[(int)parameter] = new Car();
+        Cars[(int)parameter].Make = car.Make;
+        Cars[(int)parameter].Year = car.Year;
+        Cars[(int)parameter].Model = car.Model;
     }
 
     public bool CanSaveCars(object? parameter)
@@ -70,7 +73,8 @@ public class DashboardViewModel : NotificationService
 
     public void Cancel(object? parameter)
     {
-
+        dynamic dd=((dynamic)parameter);
+        dd.Close();
     }
 
     public bool CanCancel(object? parameter)
@@ -108,9 +112,11 @@ public class DashboardViewModel : NotificationService
     }
     public void EditCar(object? parameter)
     {
-        
-        
-
+        car = Cars[(int)parameter];
+        EditView editView = new EditView();
+        editView.DataContext = this;
+        editView.Save.CommandParameter = parameter;
+        editView.ShowDialog();
 
 
     }

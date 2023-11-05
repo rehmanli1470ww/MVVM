@@ -1,5 +1,4 @@
-﻿using CommandMVVM.ViewModels.PageViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,23 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace CommandMVVM.Views.Pages
+namespace CommandMVVM.Views.Windows
 {
     /// <summary>
-    /// Interaction logic for EditPage.xaml
+    /// Interaction logic for EditView.xaml
     /// </summary>
-    public partial class EditPage : Page
+    public partial class EditView : Window
     {
-        static public int editPages { get; set; }
-        
-        public EditPage()
+        public EditView()
         {
-            
             InitializeComponent();
-          
         }
     }
 }

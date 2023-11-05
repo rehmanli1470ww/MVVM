@@ -7,10 +7,6 @@ namespace CommandMVVM.Views.Pages;
 
 public partial class DashboardPage : Page
 {
-    public void fuu() 
-    {
-        NavigationService.Navigate(new EditPage());
-    }
 
     public DashboardPage()
     {

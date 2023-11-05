@@ -1,18 +1,15 @@
-﻿<Page x:Class="CommandMVVM.Views.Pages.EditPage"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:CommandMVVM.Views.Pages"
-      xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="EditPage">
-
+﻿<Window x:Class="CommandMVVM.Views.Windows.EditView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CommandMVVM.Views.Windows"
+        mc:Ignorable="d"
+        Title="EditView" Height="450" Width="800">
     <Grid Background="White">
 
         <StackPanel VerticalAlignment="Center" Width="500" Margin="10">
-            
+
             <StackPanel Margin="5 20 10 20" Orientation="Horizontal">
                 <Label Width="70" Content="Make" Margin="0 0 20 0"   FontSize="18" />
                 <TextBox
@@ -42,10 +39,10 @@
                     CommandParameter="{Binding RelativeSource={RelativeSource Self}}"
                     Width="100"  Margin="10" Content="Save" Name="Save"/>
 
-                <Button Width="100"  Margin="10" Content="Cancel" Command="{Binding CancelAllCommand}"/>
+                <Button Width="100"  Margin="10" Content="Cancel" Command="{Binding CancelAllCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
             </StackPanel>
 
         </StackPanel>
 
     </Grid>
-</Page>
+</Window>
